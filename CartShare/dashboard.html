@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>CartShare</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <div id="loader">
+         <div class="spinner"></div>
+        </div>
+        
+        <header>
+          <nav>
+            <div class="logo">
+                <div class="menu-toggle" id="menu-toggle">
+                     ☰
+                </div>
+                <h1>CartShare</h1>
+            </div>
+            <ul id="nav-links">
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="products.html">Products</a></li>
+                 <li><a href="category.html">Categories</a></li>
+                 <li><a href="about.html">About Us</a></li>
+                 <li><a href="contact.html">Contact</a></li>
+            </ul>
+            
+            <div class="icons">
+                
+                <button id="theme-toggle">🌙</button>
+
+                <a href="search.html">&#128269</a>
+                 
+                <a href="cart.html">
+                &#128722(<span id="cart-count">0</span>)
+                </a>
+                <a href="wishlist.html">❤️</a>
+                <a href="profile.html">👤</a>
+
+                <a href="#" id="logout-btn">
+                      🚪 
+                </a>
+          </nav>
+        </header>
+
+        <main>
+
+<div class="dashboard">
+
+    <h2>Welcome to CartShare</h2>
+
+    <p>Create a room or join an existing shopping room.</p>
+
+    <div class="dashboard-buttons">
+
+        <button id="create-room">Create Room</button>
+
+        <button id="join-room">Join Room</button>
+
+    </div>
+
+    <div class="room-info">
+
+        <h3>Your Room</h3>
+
+        <p>Room Code:
+            <span id="room-code">Not Created</span>
+        </p>
+
+        <p>Total Members:
+            <span id="member-count">1</span>
+        </p>
+
+    </div>
+
+    <div class="join-room-box">
+
+        <h3>Join Existing Room</h3>
+
+        <input type="text"
+           id="join-code"
+           placeholder="Enter Room Code">
+
+         <button id="join-btn">
+           Join Room
+         </button>
+
+    </div>
+
+</div>
+
+</main>
+
+         <footer>
+            <div class="footer-container">
+                <div class="footer-box">
+                    <h2>CartShare</h2>
+                    <p>Colaborative Real-Time Shopping Platform.</p>
+                </div>
+                <div class="footer-box">
+                    <h3>Quick Links</h3>
+                    <a href="index.html">Home</a>
+                    <a href="products.html">Products</a>
+                    <a href="about.html">About Us</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-box">
+                    <h3>Contact</h3>
+                    <p>&#9993:shop@gmail.com </p>
+                    <p>&#128222:+91 2343244254</p>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">
+                &#169;2026 CartShare. All Rights Reseved.
+            </p>
+        </footer>
+        <!--scroll button-->
+
+        <button id="topBtn">↑</button>
+         
+         <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>  
+        <script src="js/script.js"></script>
+    </body>
+</html>  

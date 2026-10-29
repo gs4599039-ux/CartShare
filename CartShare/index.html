@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>CartShare</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        
+
+        <div id="loader">
+         <div class="spinner"></div>
+        </div>
+        <header>
+          <nav>
+            <div class="logo">
+                <div class="menu-toggle" id="menu-toggle">
+                     ☰
+                </div>
+                <h1>CartShare</h1>
+            </div>
+            <ul id="nav-links">
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="products.html">Products</a></li>
+                 <li><a href="category.html">Categories</a></li>
+                 <li><a href="about.html">About Us</a></li>
+                 <li><a href="contact.html">Contact</a></li>
+            </ul>
+            
+            <div class="icons">
+                
+                <button id="theme-toggle">🌙</button>
+
+                <a href="search.html">&#128269</a>
+                 
+                <a href="cart.html">
+                &#128722(<span id="cart-count">0</span>)
+                </a>
+                <a href="wishlist.html">❤️</a>
+                <a href="profile.html">👤</a>
+            </div>
+          </nav>
+        </header>
+
+        <main>
+
+        <!--hero section-->
+
+       <section class="hero">
+
+    <div class="slider">
+
+        <img src="images/banners/banner1.jpg" class="slide active">
+
+        <img src="images/banners/banner2.jpg" class="slide">
+
+        <img src="images/banners/banner3.jpg" class="slide">
+
+    </div>
+
+    <div class="hero-content">
+
+        <h2>Shop Together in Real Time</h2>
+
+       <p>Create a ssopping room,incite your friends and manage one shared cart together.</p>
+
+       <div class="hero-buttons">
+
+        <button onclick="window.location.href='dashboard.html'">
+            Create Room
+        </button>
+        
+        <button onclick="window.location.href='dashboard.html'">
+            join Room
+        </button>
+
+       </div>
+
+    </div>
+
+</section>
+         <!--shop by category-->
+
+    <section class="category">
+
+       <h2>Browse Categories</h2>
+
+        <div class="category-container">
+            <div class="category-card">
+              <img src="images/categories/electronics.jpg" alt="electronics">
+              <h3>Electronics</h3>
+            </div>
+
+            <div class="category-card">
+              <img src="images/categories/books.jpg" alt="books">
+              <h3>Books</h3>
+            </div>
+
+            <div class="category-card">
+              <img src="images/categories/furniture.jpg" alt="furniture">
+              <h3>Furniture</h3>
+            </div>
+
+            <div class="category-card">
+              <img src="images/categories/sports.jpg" alt="sports">
+              <h3>Sports</h3>
+            </div>
+        </div>
+    </section>
+
+         <!--latest products-->
+
+        <section class="products">
+
+            <h2>Featured Products</h2>
+
+            <div class="product-container">
+
+                 <div class="home-product-card">
+                    <img src="images/products/product1.jpg" alt="products">
+                    <h3>Laptop</h3>
+                    <p>₹35000</p>
+
+                    <button class="add-cart"
+                    data-name="Laptop"
+                    data-price="35000"
+                    data-image="images/products/product1.jpg">
+                    Add To Cart
+                   </button>
+                </div>
+
+                <div class="home-product-card">
+                    <img src="images/products/product2.jpg" alt="Headphone">
+                    <h3>Smartphone</h3>
+                    <p>₹15000</p>
+
+                    
+                    <button class="add-cart"
+                     data-name="Smartphone"
+                     data-price="15000"
+                     data-image="images/products/product2.jpg">
+                     Add To Cart
+                   </button>
+                 </div>
+
+                <div class="home-product-card">
+                    <img src="images/products/product3.jpg" alt="products">
+                    <h3>Study Chair</h3>
+                    <p>₹2500</p>
+
+                  <button class="add-cart"
+                   data-name="Study Chair"
+                   data-price="2500"
+                   data-image="images/products/product3.jpg">
+                   Add To Cart
+                  </button>
+                </div>
+
+                <div class="home-product-card">
+                    <img src="images/products/product4.jpg" alt="products">
+                    <h3>Books</h3>
+                    <p>₹800</p>
+                  
+                    <button class="add-cart"
+                    data-name="Books"
+                    data-price="800"
+                    data-image="images/products/product4.jpg">
+                    Add To Cart
+                    </button>
+                </div>
+            </div>
+        </section >
+
+       <!--features-->
+
+        <section class="features">
+
+        <div class="features-box">
+            <h3>👥Shared Cart</h3>
+            <p>Multiple user can shop together.</p>
+        </div>
+
+         <div class="features-box">
+            <h3>&#128179;Secure Shopping</h3>
+            <p>safe and reliable shopping experience.</p>
+        </div>
+
+         <div class="features-box">
+            <h3>⚡Real-time Updates</h3>
+            <p>change are visible instantly.</p>
+        </div>
+
+        <div class="features-box">
+            <h3>🔗Room Sharing</h3>
+            <p>Invite friends using a room code.</p>
+        </div>
+
+        </section>
+
+        </main>
+
+       <!--footer-->
+
+        <footer>
+            <div class="footer-container">
+                <div class="footer-box">
+                    <h2>CartShare</h2>
+                    <p>Colaborative Real-Time Shopping Platform.</p>
+                </div>
+                <div class="footer-box">
+                    <h3>Quick Links</h3>
+                    <a href="index.html">Home</a>
+                    <a href="products.html">Products</a>
+                    <a href="about.html">About Us</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-box">
+                    <h3>Contact</h3>
+                    <p>&#9993:shop@gmail.com </p>
+                    <p>&#128222:+91 2343244254</p>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">
+                &#169;2026 CartShare. All Rights Reseved.
+            </p>
+        </footer>
+        <!--scroll button-->
+
+        <button id="topBtn">↑</button>
+         
+         <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>  
+        <script src="js/script.js"></script>
+    </body>
+</html>  

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>CartShare</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <div id="loader">
+         <div class="spinner"></div>
+        </div>
+        
+        <header>
+          <nav>
+            <div class="logo">
+                <div class="menu-toggle" id="menu-toggle">
+                     ☰
+                </div>
+                <h1>CartShare</h1>
+            </div>
+            <ul id="nav-links">
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="products.html">Products</a></li>
+                 <li><a href="category.html">Categories</a></li>
+                 <li><a href="about.html">About Us</a></li>
+                 <li><a href="contact.html">Contact</a></li>
+            </ul>
+            
+            <div class="icons">
+                
+                <button id="theme-toggle">🌙</button>
+
+                <a href="search.html">&#128269</a>
+                 
+                <a href="cart.html">
+                &#128722(<span id="cart-count">0</span>)
+                </a>
+                <a href="wishlist.html">❤️</a>
+                <a href="profile.html">👤</a>
+
+             <a href="#" id="logout-btn">
+              🚪 
+            </a>
+            </div>
+          </nav>
+        </header>
+
+        <main>
+
+            <section class="room-page">
+
+    <h2>Shopping Room</h2>
+
+    <div class="room-details">
+
+        <h3>Room Information</h3>
+
+        <p>
+            <strong>Room Code:</strong>
+            <span id="current-room-code">CS000000</span>
+        </p>
+
+        <p>
+            <strong>Total Members:</strong>
+            <span id="room-members">1</span>
+        </p>
+
+    </div>
+
+    <div class="room-members-box">
+
+        <h3>Members</h3>
+
+        <ul id="members-list">
+
+            <li>👤 You</li>
+
+        </ul>
+
+    </div>
+
+    <div class="shared-cart">
+
+        <h3>Shared Cart</h3>
+
+        <div id="shared-cart-items">
+
+            <p>No products added yet.</p>
+
+        </div>
+
+        <h4>
+            Total :
+            ₹<span id="shared-total">0</span>
+        </h4>
+
+        <button id="shared-checkout">
+            Proceed To Checkout
+        </button>
+
+    </div>
+
+    <div class="group-chat">
+
+        <h3>Group Chat</h3>
+
+        <div id="chat-box">
+
+            <p><strong>System:</strong> Welcome to CartShare Room.</p>
+
+        </div>
+
+        <input
+            type="text"
+            id="chat-message"
+            placeholder="Type your message">
+
+        <button id="send-message">
+            Send
+        </button>
+
+    </div>
+
+    <div class="split-payment">
+
+        <h3>Split Payment</h3>
+
+        <div id="payment-list">
+
+            <p>You : ₹0</p>
+
+        </div>
+
+    </div>
+
+    <button id="leave-room">
+        Leave Room
+    </button>
+
+</section>
+
+        </main>
+           <footer>
+            <div class="footer-container">
+                <div class="footer-box">
+                    <h2>CartShare</h2>
+                    <p>Colaborative Real-Time Shopping Platform.</p>
+                </div>
+                <div class="footer-box">
+                    <h3>Quick Links</h3>
+                    <a href="index.html">Home</a>
+                    <a href="products.html">Products</a>
+                    <a href="about.html">About Us</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-box">
+                    <h3>Contact</h3>
+                    <p>&#9993:shop@gmail.com </p>
+                    <p>&#128222:+91 2343244254</p>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">
+                &#169;2026 CartShare. All Rights Reseved.
+            </p>
+        </footer>
+        <!--scroll button-->
+
+        <button id="topBtn">↑</button>
+         
+         <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>  
+        <script src="js/script.js"></script>
+    </body>
+</html>  

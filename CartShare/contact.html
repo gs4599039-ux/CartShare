@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>CartShare</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <div id="loader">
+         <div class="spinner"></div>
+        </div>
+        <header>
+          <nav>
+            <div class="logo">
+                <div class="menu-toggle" id="menu-toggle">
+                     ☰
+                </div>
+                <h1>CartShare</h1>
+            </div>
+            <ul id="nav-links">
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="products.html">Products</a></li>
+                 <li><a href="category.html">Categories</a></li>
+                 <li><a href="about.html">About Us</a></li>
+                 <li><a href="contact.html">Contact</a></li>
+            </ul>
+            
+            <div class="icons">
+                
+                <button id="theme-toggle">🌙</button>
+
+                <a href="search.html">&#128269</a>
+                 
+                <a href="cart.html">
+                &#128722(<span id="cart-count">0</span>)
+                </a>
+                <a href="wishlist.html">❤️</a>
+                <a href="profile.html">👤</a>
+            </div>
+          </nav>
+        </header>
+       <main>
+
+<section class="contact-page">
+
+    <h2>Contact CartShare</h2>
+
+    <p style="text-align:center; margin-bottom:20px;">
+      Need help with your shared shopping room? Send us a message.
+    </p>
+
+    <form id="contact-form">
+
+        <input type="text" id="contact-name" placeholder="Your Name" required>
+
+        <input type="email" id="contact-email" placeholder="Your Email" required>
+
+        <input type="text" id="contact-subject" placeholder="Subject" required>
+
+        <textarea id="contact-message" placeholder="Your Message" rows="6" required></textarea>
+
+        <button type="submit">
+            Send Message
+        </button>
+
+    </form>
+
+</section>
+
+</main>
+<!--footer-->
+
+        <footer>
+            <div class="footer-container">
+                <div class="footer-box">
+                    <h2>CartShare</h2>
+                    <p>Colaborative Real-Time Shopping Platform.</p>
+                </div>
+                <div class="footer-box">
+                    <h3>Quick Links</h3>
+                    <a href="index.html">Home</a>
+                    <a href="products.html">Products</a>
+                    <a href="about.html">About Us</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-box">
+                    <h3>Contact</h3>
+                    <p>&#9993:shop@gmail.com </p>
+                    <p>&#128222:+91 2343244254</p>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">
+                &#169;2026 CartShare. All Rights Reseved.
+            </p>
+        </footer>
+        <!--scroll button-->
+
+        <button id="topBtn">↑</button>
+         
+         <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>  
+        <script src="js/script.js"></script>
+    </body>
+</html>  

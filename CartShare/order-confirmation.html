@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>CartShare</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <div id="loader">
+         <div class="spinner"></div>
+        </div>
+        
+        <header>
+          <nav>
+            <div class="logo">
+                <div class="menu-toggle" id="menu-toggle">
+                     ☰
+                </div>
+                <h1>CartShare</h1>
+            </div>
+            <ul id="nav-links">
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="products.html">Products</a></li>
+                 <li><a href="category.html">Categories</a></li>
+                 <li><a href="about.html">About Us</a></li>
+                 <li><a href="contact.html">Contact</a></li>
+            </ul>
+            
+            <div class="icons">
+                
+                <button id="theme-toggle">🌙</button>
+
+                <a href="search.html">&#128269</a>
+                 
+                <a href="cart.html">
+                &#128722(<span id="cart-count">0</span>)
+                </a>
+                <a href="wishlist.html">❤️</a>
+                <a href="profile.html">👤</a>
+            </div>
+          </nav>
+        </header>
+
+
+        
+       <main>
+
+<section class="order-success">
+
+    <div class="success-box">
+
+        <h1>🎉 Order Placed Successfully!</h1>
+
+        <p>Thank You For Shopping With CartShare.</p>
+
+        <h3>
+            Order Number :
+            <span id="order-number"></span>
+        </h3>
+        <p>
+
+        <strong>Room Code :</strong>
+
+         <span id="room-code"></span>
+
+        </p>
+
+       <p>
+
+        <strong>Date :</strong>
+
+        <span id="order-date"></span>
+
+      </p>
+
+        <h3>
+            Status :
+            <span style="color:green;">Confirmed</span>
+        </h3>
+
+        <button id="print-receipt">
+          Print Receipt
+        </button>
+
+        <button id="download-pdf">
+          Download PDF
+        </button>
+
+        <button onclick="window.location.href='index.html'">
+            Continue Shopping
+        </button>
+
+    </div>
+
+</section>
+
+</main>
+
+        <!--footer-->
+<footer>
+            <div class="footer-container">
+                <div class="footer-box">
+                    <h2>CartShare</h2>
+                    <p>Colaborative Real-Time Shopping Platform.</p>
+                </div>
+                <div class="footer-box">
+                    <h3>Quick Links</h3>
+                    <a href="index.html">Home</a>
+                    <a href="products.html">Products</a>
+                    <a href="about.html">About Us</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-box">
+                    <h3>Contact</h3>
+                    <p>&#9993:shop@gmail.com </p>
+                    <p>&#128222:+91 2343244254</p>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">
+                &#169;2026 CartShare. All Rights Reseved.
+            </p>
+        </footer>
+        <!--scroll button-->
+
+        <button id="topBtn">↑</button>
+         
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="js/script.js"></script>
+    </body>
+</html>  

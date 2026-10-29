@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Checkout | CartShare</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <div id="loader">
+         <div class="spinner"></div>
+        </div>
+        
+        <header>
+            <nav>
+            <div class="logo">
+            <div class="menu-toggle" id="menu-toggle">
+                     ☰
+                </div>
+                <h1>CartShare</h1>
+            </div>
+            <ul id="nav-links">
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="products.html">Products</a></li>
+                 <li><a href="category.html">Categories</a></li>
+                 <li><a href="about.html">About Us</a></li>
+                 <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="icons">
+                
+
+                <button id="theme-toggle">🌙</button>
+                <a href="search.html">&#128269</a>
+                <li>
+                <a href="cart.html">
+                 &#128722 (<span id="cart-count">0</span>)
+                </a>
+
+                <a href="wishlist.html">❤️</a>
+                <a href="profile.html">👤</a>
+                </li>
+            </div>
+          </nav>
+        </header>
+
+        <main>
+
+<section class="checkout-page">
+
+    <h2> Shared Checkout</h2>
+
+    <div class="order-summary">
+
+    <h3>Order Summary</h3>
+
+    <div id="checkout-items"></div>
+
+    <h2>Total : ₹<span id="checkout-total">0</span></h2>
+
+    </div>
+    <div class="room-details">
+
+    <h3>Shopping Room</h3>
+
+    <p>
+        Room Code :
+        <span id="room-code-display"></span>
+    </p>
+
+    <p>
+        Members :
+        <span id="member-display">1</span>
+    </p>
+
+</div>
+
+    <form id="checkout-form">
+
+        <input type="text" id="name" placeholder="Full Name">
+
+        <input type="email" id="email" placeholder="Email">
+
+        <input type="tel" id="phone" placeholder="Mobile Number">
+
+        <textarea id="address" placeholder="Address"></textarea>
+
+        <button type="submit">
+            Place Order
+        </button>
+
+    </form>
+
+</section>
+
+</main>
+          <footer>
+
+        <div class="footer-container">
+
+            <div class="footer-box">
+
+                <h2>CartShare</h2>
+
+                <p>
+                    Collaborative Real-Time Shopping Platform.
+                </p>
+
+            </div>
+
+            <div class="footer-box">
+
+                <h3>Quick Links</h3>
+
+                <a href="index.html">Home</a>
+
+                <a href="products.html">Products</a>
+
+                <a href="about.html">About Us</a>
+
+                <a href="contact.html">Contact</a>
+
+            </div>
+
+            <div class="footer-box">
+
+                <h3>Contact</h3>
+
+                <p>✉ support@cartshare.com</p>
+
+                <p>📞 +91 9876543210</p>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <p class="copyright">
+
+            ©2026 CartShare. All Rights Reserved.
+
+        </p>
+
+    </footer>
+
+    <button id="topBtn">↑</button>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
